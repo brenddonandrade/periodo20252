@@ -1,0 +1,9 @@
+- Competencias para um Dev Jr de Java:
+	- ( ) Bancos de Dados Relacionais
+	- ( ) Java 	
+	- ( ) Angular 
+	- ( ) Banco de Dados
+	- ( ) API	
+	- ( ) JUnit
+	- ( ) MangoDB
+	- ( ) Spring Boot

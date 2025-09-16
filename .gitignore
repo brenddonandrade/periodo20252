@@ -1,0 +1,8 @@
+**venv
+**/data/
+**.venv
+./pesquisa/january/02-09-24/IDTxl/*
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+

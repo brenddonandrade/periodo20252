@@ -1,0 +1,11 @@
+- Competencias para um Dev Jr de Kotlin:
+	- ( ) Android SDK
+	- ( ) Arquitetura MVC
+	- ( ) Banco de dados
+	- ( ) Data Binding
+	- ( ) Gradle
+	- ( ) Interface de programação de aplicativos (API)
+	- ( ) JUnit
+	- ( ) Kotlin
+	- ( ) MVVM (Model-view-viewmodel)
+

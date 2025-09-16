@@ -1,0 +1,3 @@
+O que deve ter na metodologia:
+	O que foi feito;
+	Promove a reprodutividade e replicabilidade;

@@ -1,0 +1,4 @@
+O que deve ter na discussão:
+	Como o que foi observado nos resultados, que foi obtido por sua vez usando a metodologia descrita, sustentando (ou não), a hipótese;
+	Como este trabalho muda o estado da arte;
+	Como foi dito inicialmente (hipótese) seguindo os passos (metodologia), observamos (resultados). Portanto, nossa proposta é capaz de (argumento).

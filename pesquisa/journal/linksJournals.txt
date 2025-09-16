@@ -1,0 +1,30 @@
+Revistas acadêmicas de alto impacto (foco em finanças quantitativas e previsão):
+	- Journal of Financial Economics: https://www.sciencedirect.com/journal/journal-of-financial-economics
+	- The Journal of Finance: https://onlinelibrary.wiley.com/journal/15406261
+	- Review of Financial Studies (RFS): https://academic.oup.com/rfs
+	- Quantitative Finance: https://www.tandfonline.com/journals/rquf20
+	- Journal of Forecasting: https://onlinelibrary.wiley.com/journal/1099131X
+	- International Journal of Forecasting: https://www.sciencedirect.com/journal/international-journal-of-forecasting
+	
+
+Revistas interdisciplinares e em Machine Learning
+	- Neural Networks: https://www.sciencedirect.com/journal/neural-networks
+	- IEEE Transactions on Neural Networks and Learning Systems: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385
+	- Expert Systems with Applications: https://www.sciencedirect.com/journal/expert-systems-with-applications
+	- Knowledge-Based Systems: https://www.sciencedirect.com/journal/knowledge-based-systems
+
+
+
+Para encontrar artigos específicos sobre previsão com grafos em finanças:
+
+Pesquise no Google Scholar, ArXiv ou bases como ScienceDirect, SpringerLink, IEEE Xplore ou SSRN usando palavras-chave como:
+
+    "graph neural networks" AND finance AND prediction
+
+    "financial time series forecasting using graphs"
+
+    "temporal graph networks" AND stock market
+
+    "graph convolutional networks" AND financial forecasting
+
+    "spatio-temporal GNN" AND commodity markets

@@ -1,0 +1,9 @@
+- O que preciso para entrar como Python Jr.
+
+	- ( ) 🐍 Python (Intermediário): Sólido conhecimento em programação orientada a objetos e implementação de testes. 
+	- ( ) ☁️ AWS (Básico): Familiaridade com serviços como Lambda, S3, SQS, KMS e EC2. 
+	- ( ) ⏱️ Metodologias Ágeis: Vivência em ambientes ágeis e dinâmicos.
+
+- vaga (possivelmente perdi) https://lnkd.in/dcpB3_-R
+
+

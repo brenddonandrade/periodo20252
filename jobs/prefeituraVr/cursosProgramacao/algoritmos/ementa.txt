@@ -1,0 +1,47 @@
+Conteúdo Programático
+Módulo 1: Fundamentos de Algoritmos e Programação (6 horas)
+
+    (aula 1) Introdução à lógica de programação. 
+        Conceitos de algoritmo, fluxogramas e pseudocódigo. 
+    (aula 2) Estruturas básicas de um programa em C.
+        Sintaxe, comentários, entrada e saída de dados (printf e scanf).
+    (aula 2 / aula 3) Variáveis e tipos de dados.
+    Operadores aritméticos e lógicos.
+        Criação de um programa para calcular a média de notas.
+
+Módulo 2: Estruturas de Controle e Repetição (6 horas)
+
+    (aula 4) Estruturas de decisão: if, else if, e else.
+    (aula 5) Estruturas de repetição: for, while e do-while.
+    (aula 6) Exercícios práticos:
+        Jogo de adivinhação de números.
+        Programa que gera senha aleatória automaticamente.
+	Geração de placas automotivas
+
+Módulo 3: Estruturas de Dados Básicas (6 horas)
+
+    (aula 7) Arrays (vetores e matrizes).
+    (aula 8) Manipulação de strings em C.
+    (aula 9) Trabalhando com banco de dados em C.
+    (aula 10) Introdução a ponteiros (conceito e aplicações iniciais).
+
+Módulo 4: Funções e Modularização (4 horas)
+
+    (aula 11) Criação e uso de funções, passagem de parâmetros e retorno de valores e escopo de variáveis.
+    (aula 12) Exercício prático:
+        Reestruturação de programas anteriores utilizando funções.
+	Desenvolver um programa que possar receber e excluir usuários, gerando senhas aleatórias para este a partir de sua criação. 
+
+Módulo 5: Desenvolvimento de Mini-Projetos (6 horas)
+
+    (aula 13) Projeto 1: Jogo da Velha no terminal.
+        Uso de arrays bidimensionais.
+        Lógica de validação de jogadas e exibição do tabuleiro.
+    (aula 14 / aula 15) Projeto 2: Simulação de um "Snake" básico utilizando ncurses.
+        Introdução ao uso de bibliotecas externas.
+        Controle de fluxo e atualização da tela.
+
+Módulo 6: Revisão e Apresentação dos Projetos Finais (2 horas)
+
+    Revisão dos principais conceitos abordados.
+    Demonstração dos projetos desenvolvidos pelos alunos.

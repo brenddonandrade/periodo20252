@@ -1,0 +1,8 @@
+Checking if pppd is installed...OK
+Checking if iproute package is installed...OK
+Setup /home/brenddon/Documents/forticlientsslvpn/64bit/./helper/subproc
+/home/brenddon/Documents/forticlientsslvpn/64bit/./helper/waitppp.sh
+Checking if pppd is installed...OK
+Checking if iproute package is installed...OK
+Setup /home/brenddon/Documents/uff/mestrado/periodo20251/pesquisa/forticlientsslvpn/64bit/./helper/subproc
+/home/brenddon/Documents/uff/mestrado/periodo20251/pesquisa/forticlientsslvpn/64bit/./helper/waitppp.sh

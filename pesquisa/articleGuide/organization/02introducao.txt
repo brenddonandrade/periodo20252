@@ -1,0 +1,16 @@
+O que deve ter na introdução:
+	Hipótese científica (o motivo do trabalho);
+		“Estamos interessados em (hipótese);
+
+	Revisão da literatura (do paper)
+		“Este trabalho contribui pois preenche tal e tal lacuna”;
+		“Até agora se usava tal método e proponho usar tal método”;
+
+	Ideia da metodologia
+		“P/ conseguir apresentar tal resultados utilizamos (métodos)”;
+
+	Resuma os resultados
+		“Fazendo isso (métodos), obtivemos (resumo dos resultados)”;
+
+	Quais são as consequências disso? (resultados)
+		“Propomos uma técnica p/ gerar obtenção …”;

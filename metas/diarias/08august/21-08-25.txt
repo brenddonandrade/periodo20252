@@ -1,0 +1,71 @@
+Metas para cumprir todos os dias (cada um com pelo menos 30 min):
+	- Analisar o Mercado:
+                - (X) Ler notícias dos meios comunicativos (Jornais)
+			- https://jornalpurosangue.net/
+			- https://www.cnnbrasil.com.br/internacional/
+			- https://g1.globo.com/
+			- https://oglobo.globo.com/
+			- https://extra.globo.com/
+			- https://valor.globo.com/
+	- Se inscrever em algumas vagas em 10 minutors
+		- ( ) se inscrever
+	- Acompanhar ITA:
+		- ( ) estudar
+		- ( ) qual etapa prosseguir?
+		- http://www.ita.br/concurso2025
+	- Acompanhar (PND):
+		- ( ) estudar
+		- ( ) qual etapa prosseguir?
+		- https://pnd.inep.gov.br/pnd/inicio
+	- Acompanhar CNU :
+		- ( ) estudar
+		- https://inscricao-cpnu.conhecimento.fgv.br/
+		- ( ) qual etapa prosseguir?
+	- Prova Bombeiros:
+		- ( ) fazer exercicios
+			- ( ) barra
+			- ( ) corrida
+			- ( ) apneia
+		- ( ) prova teorica
+			- ( ) disciplina estudada
+	- Estudar física:
+		- ( ) Uma aula do UAI Física
+	- Meta diária OpenEnglish:
+		- ( ) Aula em grupo - Tipo de Aula
+		- (X) Uma unidade completa
+		- (X) 30 min de prática
+		- ( ) Ep de algo em inglês
+	- Curso de IA Agent:
+		- ( ) continuar
+		- https://github.com/microsoft/ai-agents-for-beginners/blob/main/translations/br/README.md
+	- Estudar via Duolingo:
+		- (X) estudar
+	- Estudar para a pesquisa, variando entre:
+		- ( ) aprenda sobre um dos modelos simples de previsao
+			- ( ) Implement the method in a high-level library such as scikit-learn and get a result.
+			- ( ) Implement the method in a lower-level library such as NumPy/SciPy and reproduce the result.
+			- ( ) Implement the method directly using matrices and matrix operations in NumPy or Octave.
+			- ( ) Study and explore the matrix arithmetic operations involved.
+			- ( ) Study and explore the matrix decomposition operations involved.
+			- ( ) Study methods for approximating the eigendecomposition of a matrix.
+		- ( ) olhar o notebook kaggle para abrir a visao
+		- ( ) ler um livro
+		- ( ) ler um artigo do medium
+		- ( ) teoria
+		- ( ) pratica
+		- ( ) estudar material prof Francisco:
+			- https://www.youtube.com/@FranciscoRodrigues/playlists
+		- ( ) estudar material do google
+			- https://developers.google.com/machine-learning
+		- ( ) estudar material Brownlee
+			- https://machinelearningmastery.com/start-here/
+		- ( ) leitura de conceitos de ML - 3Blue1Brown
+                        - ( ) https://www.3blue1brown.com/#lessons
+	- Continuar trabalho do tio Mello
+		- ( ) trabalho
+	- Procurar trabalho:
+		- ( ) linkedIn
+	- Olhar metas semanais:
+		- ( ) cumprir meta
+
+		

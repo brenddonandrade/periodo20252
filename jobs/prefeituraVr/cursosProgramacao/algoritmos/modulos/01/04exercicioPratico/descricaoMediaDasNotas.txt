@@ -1,0 +1,13 @@
+Você deve criar um programa que receba as idades de seis alunos de um colégio.
+Os alunos e suas respectivas idades são:
+	- Pedro: 	18 anos;
+	- João: 	22 anos;
+	- Maria: 	20 anos;
+	- José:		30 anos;
+	- Davi:		25 anos;
+	- Daniel:	19 anos.
+
+O programa deve exibir uma mensagem final indicando a média da turma. Exemplo:
+"A idade média da turma foi de X anos."
+
+

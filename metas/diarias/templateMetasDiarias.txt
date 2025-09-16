@@ -1,0 +1,64 @@
+Metas para cumprir todos os dias (cada um com pelo menos 30 min):
+
+# Informações:
+	- Analisar o Mercado:
+                - ( ) Ler notícias dos meios comunicativos (Jornais)
+			- https://www.cnnbrasil.com.br/internacional/
+			- https://g1.globo.com/
+			
+# Edtudos:
+	- Meta diária OpenEnglish:
+		- ( ) Aula em grupo - Tipo de Aula
+		- ( ) Uma unidade completa
+		- ( ) 30 min de prática
+		- ( ) Ep de algo em inglês
+		- ( ) Fazer meu diário
+	- Duolingo:
+		- ( ) estudar
+	- Disciplina Mestrado:
+		- ( ) tarefas lista
+		- ( ) estudar conteúdo
+	- Estudar para a pesquisa, variando entre:
+		- ( ) olhar o notebook kaggle para abrir a visao
+		- ( ) ler um livro
+		- ( ) ler um artigo do medium
+		- ( ) teoria
+		- ( ) pratica
+		- ( ) estudar material prof Francisco:
+			- https://www.youtube.com/@FranciscoRodrigues/playlists
+		- ( ) estudar material do google
+			- https://developers.google.com/machine-learning
+		- ( ) estudar material Brownlee
+			- https://machinelearningmastery.com/start-here/
+		- ( ) leitura de conceitos de ML - 3Blue1Brown
+	                - https://www.3blue1brown.com/#lessons
+        - Curso de IA Agent:
+		- ( ) continuar
+		- https://github.com/microsoft/ai-agents-for-beginners/blob/main/translations/br/README.md
+	- Atacar cursos da dio:
+		- ( ) https://web.dio.me/track/formacao-machine-learning-specialist
+		- ( ) https://web.dio.me/track/formacao-sql-db-specialist
+		- ( ) https://web.dio.me/track/ae00b551-c67c-43fa-8f2a-3591be061982
+		- ( ) https://web.dio.me/track/santander-excel-com-inteligencia-artificial 
+		
+# Trabalho:
+	- Fazer aula da prefeitura:
+		- ( ) aula / codigo
+	- Fazer aula do CAMP-VR
+		- ( ) aula / codigo
+	- Continuar trabalho do tio Mello
+		- ( ) trabalho
+	- Se inscrever em algumas vagas em 10 minutors
+		- ( ) se inscrever
+	- Olhar metas semanais:
+		- ( ) cumprir meta
+	- Acompanhar ITA:
+		- ( ) qual etapa prosseguir?
+		- http://www.ita.br/concurso2025
+	- Acompanhar (PND):
+		- ( ) qual etapa prosseguir?
+		- https://pnd.inep.gov.br/pnd/inicio
+	- Acompanhar CNU :
+		- https://inscricao-cpnu.conhecimento.fgv.br/
+		- ( ) qual etapa prosseguir?
+	

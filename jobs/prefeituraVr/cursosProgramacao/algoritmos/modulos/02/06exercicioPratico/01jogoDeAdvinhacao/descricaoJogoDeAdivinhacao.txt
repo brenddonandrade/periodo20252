@@ -1,0 +1,19 @@
+O objetivo deste jogo é fazer um programa que gere um número inteiro aleatório entre 0 e 100. A partir deste, solicite inputs (entrada de dados) para comparar se este número solicitado tem o mesmo valor que o número aleatório.
+Note que, (digamos que o valor aleatório seja X e o valor de entrada do jogador seja Y), o valor da diferenca será:
+                diferenca = X - Y;
+Durante os eventos, o jogador receberá mensagens de aviso para demonstrar o quão perto este está do número aleatório. Estas são:
+	- Se o módulo da diferenca (|diferenca|) for:
+		- |diferenca| >= 50: "Frio como o coração de sua amada.";
+		- 50 > |diferenca| >= 25: "Está chegando próximo a temperatura do Polo Norte.";
+		- 25 > |diferenca| >= 12: "Está esquentando...";
+		- 12 > |diferenca| >= 6: " Quente, quente, quente.";
+		- 6 > |diferenca| >= 1: "Está pelando!";
+		- |diferenca| == 0: "Queimou!".
+
+Dicas: 
+	- para receber os inputs sem limitações, use o do-while;
+	- para calcular o módulo, use a função "abs(numero)";
+	- para gerar o número aleatório, use a função "rand()" da biblioteca "stdlib" (#include <stdlib.h>). Exemplo de uso:
+		int numeroAleatorio = (rand() % 6) + 1; // para gerar valores entre 1 e 6
+	
+

@@ -1,0 +1,262 @@
+05/09/2025 00:28:32 [18369] set the loglevel to 1
+05/09/2025 00:28:32 [19352] set the loglevel to 1
+05/09/2025 00:28:32 [19352] sslvpn connection version:4.0.2334
+05/09/2025 00:28:32 [19352] rcv cmd:0 at state[0]
+05/09/2025 00:28:32 [19352] starting ssl vpn tunnel[4.0.2334]
+05/09/2025 00:28:32 [19356] route backup START
+05/09/2025 00:28:32 [19356] route backup DONE
+05/09/2025 00:28:32 [19357] execl /home/brenddon/Documents/forticlientsslvpn/64bit/./helper/get_fortisslvpn_info /home/brenddon/Documents/forticlientsslvpn/64bit/./helper 200.159.241.9 10443   ...
+05/09/2025 00:28:32 [19357] trusted CA dir: /home/brenddon/.fctsslvpn_trustca
+05/09/2025 00:28:32 [19357] set loglevel to 1
+05/09/2025 00:28:32 [19357] Peer's certificate is not valid. action is 1
+05/09/2025 00:28:32 [19357] peer's certificate: 
+Certificate:$    Data:$        Version: 3 (0x2)$        Serial Number: 43468499 (0x29746d3)$    Signature Algorithm: sha256WithRSAEncryption$        Issuer: C=US, ST=California, L=Sunnyvale, O=Fortinet, OU=Certificate Authority, CN=fortinet-subca2001/emailAddress=support@fortinet.com$        Validity$            Not Before: Mar  7 06:41:36 2024 GMT$            Not After : May 26 20:48:33 2056 GMT$        Subject: C=US, ST=California, L=Sunnyvale, O=Fortinet, OU=FortiGate, CN=FG4H1FT923904166/emailAddress=support@fortinet.com$        Subject Public Key Info:$            Public Key Algorithm: rsaEncryption$                Public-Key: (2048 bit)$                Modulus:$                    00:d2:16:7d:b4:ef:6b:97:ee:7e:4b:3c:fa:b6:7c:$                    82:ba:c8:b7:32:23:39:e5:3d:d9:a0:09:56:8c:63:$                    58:ee:6d:21:a9:7a:d0:15:c0:bd:ea:18:3e:be:72:$                    c8:3d:38:d0:aa:be:59:2b:2b:7b:35:32:d6:e6:4d:$                    b0:4c:78:07:1d:fc:9e:3e:ea:d6:9e:4c:ab:af:3c:$                    0c:b8:62:a0:34:fb:96:95:30:f0:4e:0b:57:29:11:$                    f1:f8:53:79:4e:5b:11:c1:29:ec:29:6a:c3:69:07:$                    4d:83:90:ba:b6:01:56:7c:d0:a0:84:07:47:2b:d2:$                    4b:01:09:24:25:a2:8b:f3:96:df:f0:33:07:4f:19:$                    19:ab:b3:9c:16:fd:68:dc:fc:00:30:ec:12:f1:d6:$                    be:77:89:6a:41:cc:e3:c1:42:7b:de:e5:38:09:26:$                    e5:18:17:b9:9b:af:81:ee:fc:f6:2d:a9:4b:b3:ea:$                    00:bd:51:49:ea:83:93:26:88:33:bb:77:7d:3b:54:$                    77:90:73:cb:bb:72:74:72:bd:58:6d:6a:af:f4:21:$                    6f:7d:f3:c7:5b:d0:ef:19:be:b8:50:b9:98:06:d6:$                    53:8d:6f:f1:06:d2:12:8a:ae:0a:af:f6:82:20:fb:$                    64:a7:ff:a3:79:f5:00:8b:14:2c:dd:5d:02:72:08:$                    df:6d$                Exponent: 65537 (0x10001)$        X509v3 extensions:$            X509v3 Basic Constraints: critical$                CA:FALSE$            X509v3 Subject Key Identifier: $                77:86:59:09:CD:38:F1:76:93:01:A2:42:0A:58:4B:F2:9A:E0:89:45$            X509v3 Authority Key Identifier: $                keyid:98:2B:25:3C:30:CA:2C:2B:56:E7:DB:FC:59:33:B3:DC:3D:5B:6A:D7$                DirName:/C=US/ST=California/L=Sunnyvale/O=Fortinet/OU=Certificate Authority/CN=fortinet-ca2/emailAddress=support@fortinet.com$                serial:20:01$$            X509v3 Key Usage: critical$                Digital Signature$    Signature Algorithm: sha256WithRSAEncryption$         d2:c5:be:b9:11:fa:cd:91:c7:46:12:0e:16:38:4f:86:fe:96:$         27:0f:ea:8d:cf:33:d5:30:71:c3:15:f7:ef:ac:8b:75:40:a1:$         3a:01:61:82:96:01:e9:b6:25:8e:cc:ac:f7:51:2a:9a:21:31:$         84:59:fc:6a:5c:83:eb:d8:3e:e8:02:9d:4e:a9:37:36:a4:4f:$         1e:17:5b:94:f8:91:e1:dd:b2:34:45:4d:32:e9:d2:80:0b:92:$         ee:3c:a4:94:2c:16:e3:d6:46:01:96:4e:c0:8c:02:58:17:38:$         2c:b3:cd:ba:a4:6b:dd:32:5e:f6:54:22:f9:95:b6:d4:99:77:$         19:41:f9:75:78:c2:a9:0f:59:c3:d7:aa:02:2a:39:cc:58:25:$         99:66:a0:44:ee:ae:32:d4:2d:8c:bc:1d:b7:e0:96:bd:a6:df:$         77:ca:54:81:90:a2:35:a5:06:28:2c:ee:62:60:13:ef:a5:26:$         1a:94:a1:c8:5a:55:45:44:90:6d:47:1e:6a:3b:4a:16:ff:ba:$         cf:1f:42:4c:18:57:43:bb:db:ce:fe:cc:28:ec:f3:91:2e:47:$         6d:2c:23:95:38:d8:b0:c6:68:f6:09:f9:4d:19:b2:ce:c9:89:$         62:5c:d1:26:8f:d4:33:63:f6:fb:ac:e3:c7:a7:89:de:a4:d1:$         39:2f:0e:33$
+05/09/2025 00:28:33 [19357] realm is enabled: 
+05/09/2025 00:28:33 [19357] no Content-Length
+05/09/2025 00:28:33 [19357] try to get cookie for the first time: 115 :  SVPNNETWORKCOOKIE=; path=/remote/network; expires=Sun, 11 Mar 1984 12:00:00 GMT; secure; httponly; SameSite=Strict
+05/09/2025 00:28:33 [19357] no Content-Length
+05/09/2025 00:28:33 [19357] cookie: SVPNCOOKIE=HHcjOxG8leUZp/jZn3CdZDDvb+KNakc4/cmQP1VX/IsGUOtSxqCsrwswQfG7qQDcoHdpfxVug1UytEQrA9dekOf9zcRB/WgNYjc+7Hfx4bBNBX4z522ZhybgUMzyv2sNNYis4y2NpI97Vw1fp77S6PWMjO8vThI4NDoT3LXTiV6Px1qW8byaRQpjoTD+T1k9ybQNwXKgE4pRauTv7GZw4b4+FPVR29I/4DIKhcDP75pTERtw7gAo6BxkvPXziwqOpiZGiez7vT4l82yjchtrmx7dI/NeHD/VM2fUPQ+3MEOSt78d2f5FwiAiIRGQlMmW7u1z7/UxZT7Mc53JoKuauLjzoNHPOa6gqMU6H7MZYbEiaDqib7SNAlppcCA4CtZSiPDcvYPuyqG3R4KxVaxa93o=
+05/09/2025 00:28:33 [19357] no Content-Length
+05/09/2025 00:28:33 [19357] no Content-Length
+05/09/2025 00:28:33 [19357] 0|"|†ò”◊˝|1||HHcjOxG8leUZp/jZn3CdZDDvb+KNakc4/cmQP1VX/IsGUOtSxqCsrwswQfG7qQDcoHdpfxVug1UytEQrA9dekOf9zcRB/WgNYjc+7Hfx4bBNBX4z522ZhybgUMzyv2sNNYis4y2NpI97Vw1fp77S6PWMjO8vThI4NDoT3LXTiV6Px1qW8byaRQpjoTD+T1k9ybQNwXKgE4pRauTv7GZw4b4+FPVR29I/4DIKhcDP75pTERtw7gAo6BxkvPXziwqOpiZGiez7vT4l82yjchtrmx7dI/NeHD/VM2fUPQ+3MEOSt78d2f5FwiAiIRGQlMmW7u1z7/UxZT7Mc53JoKuauLjzoNHPOa6gqMU6H7MZYbEiaDqib7SNAlppcCA4CtZSiPDcvYPuyqG3R4KxVaxa93o=|0
+05/09/2025 00:28:33 [19352] ssl vpn tunnel started
+05/09/2025 00:28:33 [19359] server="[200.159.241.9] port=†ò”◊˝[10443] version=1 tunnel= cookie=HHcjOxG8leUZp/jZn3CdZDDvb+KNakc4/cmQP1VX/IsGUOtSxqCsrwswQfG7qQDcoHdpfxVug1UytEQrA9dekOf9zcRB/WgNYjc+7Hfx4bBNBX4z522ZhybgUMzyv2sNNYis4y2NpI97Vw1fp77S6PWMjO8vThI4NDoT3LXTiV6Px1qW8byaRQpjoTD+T1k9ybQNwXKgE4pRauTv7GZw4b4+FPVR29I/4DIKhcDP75pTERtw7gAo6BxkvPXziwqOpiZGiez7vT4l82yjchtrmx7dI/NeHD/VM2fUPQ+3MEOSt78d2f5FwiAiIRGQlMmW7u1z7/UxZT7Mc53JoKuauLjzoNHPOa6gqMU6H7MZYbEiaDqib7SNAlppcCA4CtZSiPDcvYPuyqG3R4KxVaxa93o= exclusive routing: 0
+
+05/09/2025 00:28:33 [19359] starting pppd
+05/09/2025 00:28:33 [19359] use tty:/dev/pts/6
+05/09/2025 00:28:33 [19359] connecting to 200.159.241.9:10443
+05/09/2025 00:28:33 [19359] [xml config]: GET /remote/fortisslvpn_xml ... (received 1009 bytes): 
+HTTP/1.1 200 OK
+Date: Fri, 09 May 2025 03:28:32 GMT
+Transfer-Encoding: chunked
+Content-Type: text/xml
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'; object-src 'self'; script-src 'self' https:  'unsafe-eval' 'unsafe-inline' blob:;
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000
+
+<?xml version='1.0' encoding='utf-8'?><sslvpn-tunnel ver='2' dtls='1' patch='1'><dtls-config ver='2' heartbeat-interval='3' heartbeat-fail-count='3' heartbeat-idle-timeout='3' client-hello-timeout='10' dtls-accept-check-time ='1'/><tunnel-method value='ppp' /><tunnel-method value='tun' /><tunnel-method value='websocket' /><auth-ses check-src-ip='1' tun-connect-without-reauth='0' tun-user-ses-timeout='30' /><client-config save-password='off' keep-alive='off' auto-connect='off' /><ipv4><dns ip='192.168.0.1' /><assigned-addr ipv4='192.168.81.100' /></ipv4><idle-timeout val='300' /><auth-timeout val='10800' /></sslvpn-tunnel>
+----
+
+05/09/2025 00:28:33 [19359] dns suffix: 
+
+05/09/2025 00:28:33 [19359] Got local address from ppp, interface will be  up
+05/09/2025 00:28:36 [19359] ppp interface is up
+05/09/2025 00:28:36 [19359] run_scutil 200.159.241.9 0 0...
+Generating pppd.resolv.conf...Done
+05/09/2025 00:28:37 [19388] begin sysconfig linux
+05/09/2025 00:28:37 [19388] Gateway to FGT: 172.18.240.1
+05/09/2025 00:28:37 [19388] delete route 1.1.1.1
+05/09/2025 00:28:37 [19388] Add the route for 200.159.241.9(172.18.240.1)
+05/09/2025 00:28:37 [19388] router add default gw 192.168.81.100
+05/09/2025 00:35:44 [19352] rcv cmd:1 at state[1]
+05/09/2025 00:35:44 [19352] stopping ssl vpn tunnel[v4.0.2334]
+05/09/2025 00:35:44 [19352] kill_child:19359
+05/09/2025 00:35:44 [19352] kill_child:19357
+05/09/2025 00:35:44 [19359] killing pppd ...
+05/09/2025 00:35:44 [19359] kill_child:19361
+05/09/2025 00:35:44 [19359] kill_child:19388
+05/09/2025 00:35:44 [19357] signal rcved, logout now
+05/09/2025 00:35:44 [19357] ssl_write error return -1
+05/09/2025 00:35:44 [19352] tunnel terminated
+05/09/2025 00:35:44 [21665] begin cleanup linux...
+05/09/2025 00:35:44 [21665] restore /etc/resolv.conf
+05/09/2025 00:35:44 [21665] clean up route...
+05/09/2025 00:35:44 [21665] truncate pppd.log
+05/09/2025 00:35:44 [21665] truncate forticlientsslvpn.log
+05/09/2025 00:35:44 [19352] ssl vpn tunnel stopped
+05/09/2025 00:35:44 [19352] rcv cmd:2 at state[0]
+05/12/2025 22:11:49 [537] set the loglevel to 1
+05/12/2025 22:11:49 [534] set the loglevel to 1
+05/12/2025 22:11:49 [537] sslvpn connection version:4.0.2334
+05/12/2025 22:11:49 [537] rcv cmd:0 at state[0]
+05/12/2025 22:11:49 [537] starting ssl vpn tunnel[4.0.2334]
+05/12/2025 22:11:49 [541] route backup START
+05/12/2025 22:11:49 [541] route backup DONE
+05/12/2025 22:11:49 [542] execl /home/brenddon/forticlientsslvpn/64bit/./helper/get_fortisslvpn_info /home/brenddon/forticlientsslvpn/64bit/./helper 200.159.241.9 10443   ...
+05/12/2025 22:11:49 [542] trusted CA dir: /home/brenddon/.fctsslvpn_trustca
+05/12/2025 22:11:49 [542] set loglevel to 1
+05/12/2025 22:11:49 [542] Peer's certificate is not valid. action is 1
+05/12/2025 22:11:49 [542] peer's certificate: 
+Certificate:$    Data:$        Version: 3 (0x2)$        Serial Number: 43468499 (0x29746d3)$    Signature Algorithm: sha256WithRSAEncryption$        Issuer: C=US, ST=California, L=Sunnyvale, O=Fortinet, OU=Certificate Authority, CN=fortinet-subca2001/emailAddress=support@fortinet.com$        Validity$            Not Before: Mar  7 06:41:36 2024 GMT$            Not After : May 26 20:48:33 2056 GMT$        Subject: C=US, ST=California, L=Sunnyvale, O=Fortinet, OU=FortiGate, CN=FG4H1FT923904166/emailAddress=support@fortinet.com$        Subject Public Key Info:$            Public Key Algorithm: rsaEncryption$                Public-Key: (2048 bit)$                Modulus:$                    00:d2:16:7d:b4:ef:6b:97:ee:7e:4b:3c:fa:b6:7c:$                    82:ba:c8:b7:32:23:39:e5:3d:d9:a0:09:56:8c:63:$                    58:ee:6d:21:a9:7a:d0:15:c0:bd:ea:18:3e:be:72:$                    c8:3d:38:d0:aa:be:59:2b:2b:7b:35:32:d6:e6:4d:$                    b0:4c:78:07:1d:fc:9e:3e:ea:d6:9e:4c:ab:af:3c:$                    0c:b8:62:a0:34:fb:96:95:30:f0:4e:0b:57:29:11:$                    f1:f8:53:79:4e:5b:11:c1:29:ec:29:6a:c3:69:07:$                    4d:83:90:ba:b6:01:56:7c:d0:a0:84:07:47:2b:d2:$                    4b:01:09:24:25:a2:8b:f3:96:df:f0:33:07:4f:19:$                    19:ab:b3:9c:16:fd:68:dc:fc:00:30:ec:12:f1:d6:$                    be:77:89:6a:41:cc:e3:c1:42:7b:de:e5:38:09:26:$                    e5:18:17:b9:9b:af:81:ee:fc:f6:2d:a9:4b:b3:ea:$                    00:bd:51:49:ea:83:93:26:88:33:bb:77:7d:3b:54:$                    77:90:73:cb:bb:72:74:72:bd:58:6d:6a:af:f4:21:$                    6f:7d:f3:c7:5b:d0:ef:19:be:b8:50:b9:98:06:d6:$                    53:8d:6f:f1:06:d2:12:8a:ae:0a:af:f6:82:20:fb:$                    64:a7:ff:a3:79:f5:00:8b:14:2c:dd:5d:02:72:08:$                    df:6d$                Exponent: 65537 (0x10001)$        X509v3 extensions:$            X509v3 Basic Constraints: critical$                CA:FALSE$            X509v3 Subject Key Identifier: $                77:86:59:09:CD:38:F1:76:93:01:A2:42:0A:58:4B:F2:9A:E0:89:45$            X509v3 Authority Key Identifier: $                keyid:98:2B:25:3C:30:CA:2C:2B:56:E7:DB:FC:59:33:B3:DC:3D:5B:6A:D7$                DirName:/C=US/ST=California/L=Sunnyvale/O=Fortinet/OU=Certificate Authority/CN=fortinet-ca2/emailAddress=support@fortinet.com$                serial:20:01$$            X509v3 Key Usage: critical$                Digital Signature$    Signature Algorithm: sha256WithRSAEncryption$         d2:c5:be:b9:11:fa:cd:91:c7:46:12:0e:16:38:4f:86:fe:96:$         27:0f:ea:8d:cf:33:d5:30:71:c3:15:f7:ef:ac:8b:75:40:a1:$         3a:01:61:82:96:01:e9:b6:25:8e:cc:ac:f7:51:2a:9a:21:31:$         84:59:fc:6a:5c:83:eb:d8:3e:e8:02:9d:4e:a9:37:36:a4:4f:$         1e:17:5b:94:f8:91:e1:dd:b2:34:45:4d:32:e9:d2:80:0b:92:$         ee:3c:a4:94:2c:16:e3:d6:46:01:96:4e:c0:8c:02:58:17:38:$         2c:b3:cd:ba:a4:6b:dd:32:5e:f6:54:22:f9:95:b6:d4:99:77:$         19:41:f9:75:78:c2:a9:0f:59:c3:d7:aa:02:2a:39:cc:58:25:$         99:66:a0:44:ee:ae:32:d4:2d:8c:bc:1d:b7:e0:96:bd:a6:df:$         77:ca:54:81:90:a2:35:a5:06:28:2c:ee:62:60:13:ef:a5:26:$         1a:94:a1:c8:5a:55:45:44:90:6d:47:1e:6a:3b:4a:16:ff:ba:$         cf:1f:42:4c:18:57:43:bb:db:ce:fe:cc:28:ec:f3:91:2e:47:$         6d:2c:23:95:38:d8:b0:c6:68:f6:09:f9:4d:19:b2:ce:c9:89:$         62:5c:d1:26:8f:d4:33:63:f6:fb:ac:e3:c7:a7:89:de:a4:d1:$         39:2f:0e:33$
+05/12/2025 22:11:50 [542] realm is enabled: 
+05/12/2025 22:11:50 [542] no Content-Length
+05/12/2025 22:11:50 [542] try to get cookie for the first time: 115 :  SVPNNETWORKCOOKIE=; path=/remote/network; expires=Sun, 11 Mar 1984 12:00:00 GMT; secure; httponly; SameSite=Strict
+05/12/2025 22:11:50 [542] no Content-Length
+05/12/2025 22:11:50 [542] cookie: SVPNCOOKIE=blyGI5/BkUrMJpXMcKyFmJvdRgABH4u0F3PFHnmV0fTTWxmUwAGK6fa5uVG95Sza3C06XlXoGFDu2jKarkL/zG+wKUbcw1OSDfH8ebId9Wuu0fsJOzpJ/PYKhISagaw83P5wPWwPtt0eOy6dKUemQH7caLczeEVfW+5V/najOWdPrpV/9LvSNspWja+dRxL1Ng815svWEr8Xh0Sxb9Sa8pnUCrXW4ivGhTcb6iotgBwrmdVafAVFY3jxLooYNhlTUVGAg2B8GifuMSAXYOYrjVhE+woM+gkEHaNm2BfAN9j4Yph5kIXdyTpDcJy5e94TnsZ4gHrxubj8pXX9jPBE/O1ih27PXgej47ikvnQZ3lUv2VY2lZtfiVXJUIjIOok9nIGXAUqvTlAVkG3SKN/9
+05/12/2025 22:11:50 [542] no Content-Length
+05/12/2025 22:11:51 [542] no Content-Length
+05/12/2025 22:11:51 [542] 0|"|pIÆ05/12/2025 22:12:37 [537] FortiClient SSLVPN[4.0.2334] stopped
+05/12/2025 22:12:37 [534] send command error:Broken pipe
+05/12/2025 22:26:35 [2713] set the loglevel to 1
+05/12/2025 22:26:35 [2855] set the loglevel to 1
+05/12/2025 22:26:35 [2855] sslvpn connection version:4.0.2334
+05/12/2025 22:26:35 [2855] rcv cmd:0 at state[0]
+05/12/2025 22:26:35 [2855] starting ssl vpn tunnel[4.0.2334]
+05/12/2025 22:26:35 [2859] route backup START
+05/12/2025 22:26:35 [2859] route backup DONE
+05/12/2025 22:26:35 [2860] execl /home/brenddon/forticlientsslvpn/64bit/helper/get_fortisslvpn_info /home/brenddon/forticlientsslvpn/64bit/helper 200.159.241.9 10443   ...
+05/12/2025 22:26:35 [2860] trusted CA dir: /home/brenddon/.fctsslvpn_trustca
+05/12/2025 22:26:35 [2860] set loglevel to 1
+05/12/2025 22:26:35 [2860] Peer's certificate is not valid. action is 1
+05/12/2025 22:26:35 [2860] peer's certificate: 
+Certificate:$    Data:$        Version: 3 (0x2)$        Serial Number: 43468499 (0x29746d3)$    Signature Algorithm: sha256WithRSAEncryption$        Issuer: C=US, ST=California, L=Sunnyvale, O=Fortinet, OU=Certificate Authority, CN=fortinet-subca2001/emailAddress=support@fortinet.com$        Validity$            Not Before: Mar  7 06:41:36 2024 GMT$            Not After : May 26 20:48:33 2056 GMT$        Subject: C=US, ST=California, L=Sunnyvale, O=Fortinet, OU=FortiGate, CN=FG4H1FT923904166/emailAddress=support@fortinet.com$        Subject Public Key Info:$            Public Key Algorithm: rsaEncryption$                Public-Key: (2048 bit)$                Modulus:$                    00:d2:16:7d:b4:ef:6b:97:ee:7e:4b:3c:fa:b6:7c:$                    82:ba:c8:b7:32:23:39:e5:3d:d9:a0:09:56:8c:63:$                    58:ee:6d:21:a9:7a:d0:15:c0:bd:ea:18:3e:be:72:$                    c8:3d:38:d0:aa:be:59:2b:2b:7b:35:32:d6:e6:4d:$                    b0:4c:78:07:1d:fc:9e:3e:ea:d6:9e:4c:ab:af:3c:$                    0c:b8:62:a0:34:fb:96:95:30:f0:4e:0b:57:29:11:$                    f1:f8:53:79:4e:5b:11:c1:29:ec:29:6a:c3:69:07:$                    4d:83:90:ba:b6:01:56:7c:d0:a0:84:07:47:2b:d2:$                    4b:01:09:24:25:a2:8b:f3:96:df:f0:33:07:4f:19:$                    19:ab:b3:9c:16:fd:68:dc:fc:00:30:ec:12:f1:d6:$                    be:77:89:6a:41:cc:e3:c1:42:7b:de:e5:38:09:26:$                    e5:18:17:b9:9b:af:81:ee:fc:f6:2d:a9:4b:b3:ea:$                    00:bd:51:49:ea:83:93:26:88:33:bb:77:7d:3b:54:$                    77:90:73:cb:bb:72:74:72:bd:58:6d:6a:af:f4:21:$                    6f:7d:f3:c7:5b:d0:ef:19:be:b8:50:b9:98:06:d6:$                    53:8d:6f:f1:06:d2:12:8a:ae:0a:af:f6:82:20:fb:$                    64:a7:ff:a3:79:f5:00:8b:14:2c:dd:5d:02:72:08:$                    df:6d$                Exponent: 65537 (0x10001)$        X509v3 extensions:$            X509v3 Basic Constraints: critical$                CA:FALSE$            X509v3 Subject Key Identifier: $                77:86:59:09:CD:38:F1:76:93:01:A2:42:0A:58:4B:F2:9A:E0:89:45$            X509v3 Authority Key Identifier: $                keyid:98:2B:25:3C:30:CA:2C:2B:56:E7:DB:FC:59:33:B3:DC:3D:5B:6A:D7$                DirName:/C=US/ST=California/L=Sunnyvale/O=Fortinet/OU=Certificate Authority/CN=fortinet-ca2/emailAddress=support@fortinet.com$                serial:20:01$$            X509v3 Key Usage: critical$                Digital Signature$    Signature Algorithm: sha256WithRSAEncryption$         d2:c5:be:b9:11:fa:cd:91:c7:46:12:0e:16:38:4f:86:fe:96:$         27:0f:ea:8d:cf:33:d5:30:71:c3:15:f7:ef:ac:8b:75:40:a1:$         3a:01:61:82:96:01:e9:b6:25:8e:cc:ac:f7:51:2a:9a:21:31:$         84:59:fc:6a:5c:83:eb:d8:3e:e8:02:9d:4e:a9:37:36:a4:4f:$         1e:17:5b:94:f8:91:e1:dd:b2:34:45:4d:32:e9:d2:80:0b:92:$         ee:3c:a4:94:2c:16:e3:d6:46:01:96:4e:c0:8c:02:58:17:38:$         2c:b3:cd:ba:a4:6b:dd:32:5e:f6:54:22:f9:95:b6:d4:99:77:$         19:41:f9:75:78:c2:a9:0f:59:c3:d7:aa:02:2a:39:cc:58:25:$         99:66:a0:44:ee:ae:32:d4:2d:8c:bc:1d:b7:e0:96:bd:a6:df:$         77:ca:54:81:90:a2:35:a5:06:28:2c:ee:62:60:13:ef:a5:26:$         1a:94:a1:c8:5a:55:45:44:90:6d:47:1e:6a:3b:4a:16:ff:ba:$         cf:1f:42:4c:18:57:43:bb:db:ce:fe:cc:28:ec:f3:91:2e:47:$         6d:2c:23:95:38:d8:b0:c6:68:f6:09:f9:4d:19:b2:ce:c9:89:$         62:5c:d1:26:8f:d4:33:63:f6:fb:ac:e3:c7:a7:89:de:a4:d1:$         39:2f:0e:33$
+05/12/2025 22:26:35 [2860] peer certificate verify result: 19
+
+05/12/2025 22:26:35 [2860] ssl connect failed
+05/12/2025 22:26:35 [2855] rcv notice:1|SSL connect failed.
+05/12/2025 22:26:35 [2855] setup tunnel failed
+
+05/12/2025 22:26:35 [2855] kill_child:2860
+05/12/2025 22:26:35 [2855] tunnel start failed
+05/12/2025 22:26:35 [2855] select: Interrupted system call
+05/12/2025 22:26:35 [2855] rcv cmd:1 at state[0]
+05/12/2025 22:26:35 [2855] rcv cmd:2 at state[0]
+05/12/2025 22:26:35 [2861] begin cleanup linux...
+05/12/2025 22:26:35 [2861] clean up route...
+05/12/2025 22:26:35 [2861] truncate pppd.log
+05/12/2025 22:26:35 [2861] truncate forticlientsslvpn.log
+05/12/2025 22:26:35 [2860] FortiClient SSLVPN[4.0.2334] stopped
+05/12/2025 22:29:29 [3933] set the loglevel to 1
+05/12/2025 22:29:29 [3938] set the loglevel to 1
+05/12/2025 22:29:29 [3938] sslvpn connection version:4.0.2334
+05/12/2025 22:29:29 [3938] rcv cmd:0 at state[0]
+05/12/2025 22:29:29 [3938] starting ssl vpn tunnel[4.0.2334]
+05/12/2025 22:29:29 [3942] route backup START
+05/12/2025 22:29:29 [3942] route backup DONE
+05/12/2025 22:29:29 [3943] execl /home/brenddon/forticlientsslvpn/64bit/helper/get_fortisslvpn_info /home/brenddon/forticlientsslvpn/64bit/helper 200.159.241.9 10443   ...
+05/12/2025 22:29:29 [3943] trusted CA dir: /home/brenddon/.fctsslvpn_trustca
+05/12/2025 22:29:29 [3943] set loglevel to 1
+05/12/2025 22:29:29 [3943] Peer's certificate is not valid. action is 1
+05/12/2025 22:29:29 [3943] peer's certificate: 
+Certificate:$    Data:$        Version: 3 (0x2)$        Serial Number: 43468499 (0x29746d3)$    Signature Algorithm: sha256WithRSAEncryption$        Issuer: C=US, ST=California, L=Sunnyvale, O=Fortinet, OU=Certificate Authority, CN=fortinet-subca2001/emailAddress=support@fortinet.com$        Validity$            Not Before: Mar  7 06:41:36 2024 GMT$            Not After : May 26 20:48:33 2056 GMT$        Subject: C=US, ST=California, L=Sunnyvale, O=Fortinet, OU=FortiGate, CN=FG4H1FT923904166/emailAddress=support@fortinet.com$        Subject Public Key Info:$            Public Key Algorithm: rsaEncryption$                Public-Key: (2048 bit)$                Modulus:$                    00:d2:16:7d:b4:ef:6b:97:ee:7e:4b:3c:fa:b6:7c:$                    82:ba:c8:b7:32:23:39:e5:3d:d9:a0:09:56:8c:63:$                    58:ee:6d:21:a9:7a:d0:15:c0:bd:ea:18:3e:be:72:$                    c8:3d:38:d0:aa:be:59:2b:2b:7b:35:32:d6:e6:4d:$                    b0:4c:78:07:1d:fc:9e:3e:ea:d6:9e:4c:ab:af:3c:$                    0c:b8:62:a0:34:fb:96:95:30:f0:4e:0b:57:29:11:$                    f1:f8:53:79:4e:5b:11:c1:29:ec:29:6a:c3:69:07:$                    4d:83:90:ba:b6:01:56:7c:d0:a0:84:07:47:2b:d2:$                    4b:01:09:24:25:a2:8b:f3:96:df:f0:33:07:4f:19:$                    19:ab:b3:9c:16:fd:68:dc:fc:00:30:ec:12:f1:d6:$                    be:77:89:6a:41:cc:e3:c1:42:7b:de:e5:38:09:26:$                    e5:18:17:b9:9b:af:81:ee:fc:f6:2d:a9:4b:b3:ea:$                    00:bd:51:49:ea:83:93:26:88:33:bb:77:7d:3b:54:$                    77:90:73:cb:bb:72:74:72:bd:58:6d:6a:af:f4:21:$                    6f:7d:f3:c7:5b:d0:ef:19:be:b8:50:b9:98:06:d6:$                    53:8d:6f:f1:06:d2:12:8a:ae:0a:af:f6:82:20:fb:$                    64:a7:ff:a3:79:f5:00:8b:14:2c:dd:5d:02:72:08:$                    df:6d$                Exponent: 65537 (0x10001)$        X509v3 extensions:$            X509v3 Basic Constraints: critical$                CA:FALSE$            X509v3 Subject Key Identifier: $                77:86:59:09:CD:38:F1:76:93:01:A2:42:0A:58:4B:F2:9A:E0:89:45$            X509v3 Authority Key Identifier: $                keyid:98:2B:25:3C:30:CA:2C:2B:56:E7:DB:FC:59:33:B3:DC:3D:5B:6A:D7$                DirName:/C=US/ST=California/L=Sunnyvale/O=Fortinet/OU=Certificate Authority/CN=fortinet-ca2/emailAddress=support@fortinet.com$                serial:20:01$$            X509v3 Key Usage: critical$                Digital Signature$    Signature Algorithm: sha256WithRSAEncryption$         d2:c5:be:b9:11:fa:cd:91:c7:46:12:0e:16:38:4f:86:fe:96:$         27:0f:ea:8d:cf:33:d5:30:71:c3:15:f7:ef:ac:8b:75:40:a1:$         3a:01:61:82:96:01:e9:b6:25:8e:cc:ac:f7:51:2a:9a:21:31:$         84:59:fc:6a:5c:83:eb:d8:3e:e8:02:9d:4e:a9:37:36:a4:4f:$         1e:17:5b:94:f8:91:e1:dd:b2:34:45:4d:32:e9:d2:80:0b:92:$         ee:3c:a4:94:2c:16:e3:d6:46:01:96:4e:c0:8c:02:58:17:38:$         2c:b3:cd:ba:a4:6b:dd:32:5e:f6:54:22:f9:95:b6:d4:99:77:$         19:41:f9:75:78:c2:a9:0f:59:c3:d7:aa:02:2a:39:cc:58:25:$         99:66:a0:44:ee:ae:32:d4:2d:8c:bc:1d:b7:e0:96:bd:a6:df:$         77:ca:54:81:90:a2:35:a5:06:28:2c:ee:62:60:13:ef:a5:26:$         1a:94:a1:c8:5a:55:45:44:90:6d:47:1e:6a:3b:4a:16:ff:ba:$         cf:1f:42:4c:18:57:43:bb:db:ce:fe:cc:28:ec:f3:91:2e:47:$         6d:2c:23:95:38:d8:b0:c6:68:f6:09:f9:4d:19:b2:ce:c9:89:$         62:5c:d1:26:8f:d4:33:63:f6:fb:ac:e3:c7:a7:89:de:a4:d1:$         39:2f:0e:33$
+05/12/2025 22:29:29 [3943] realm is enabled: 
+05/12/2025 22:29:30 [3943] no Content-Length
+05/12/2025 22:29:30 [3943] try to get cookie for the first time: 115 :  SVPNNETWORKCOOKIE=; path=/remote/network; expires=Sun, 11 Mar 1984 12:00:00 GMT; secure; httponly; SameSite=Strict
+05/12/2025 22:29:30 [3943] no Content-Length
+05/12/2025 22:29:30 [3943] cookie: SVPNCOOKIE=ekOMDrZLXlg5VSTT3FxLZa9qEEGZndZbT0pZWxwIuMdFMo02ptg3ruI20fqkyIyxo/nEM0yfBICEHDqobB230mNfB5vXKIE+qSNM/3oeOXy0MTkqvh67o5Dx2uNBv4ZeewY5N9kvpUWy0dHhSe682z+SU1H7cRXXUweTzPXhrEQa0iJr7njbcFH8tj3oRdFmwGTyD24r6sJ9RYaC0+Br+fzQ/8yVeBnAKwTvkEyfFq3Am/IcQrGDZRoKaYbuQ1NOZDgy72/KLJ97MZOU5c84nMRZBY5HPafIN1Aoj6WgqrQ0PCIbJj/KrbzPs1/FFdykFlYn+AcE2sevAs3eWtcvwQcSnw1JOnH9FJ/StwPpvgz/STDtTqkip6B2Bht6jHRt8BtWGCzm1UAsIXCDfqf6PA==
+05/12/2025 22:29:30 [3943] no Content-Length
+05/12/2025 22:29:30 [3943] no Content-Length
+05/12/2025 22:29:30 [3943] 0|"|∞:Y05/12/2025 23:17:35 [7271] FortiClient SSLVPN[4.0.2334] stopped
+05/12/2025 23:17:35 [7164] send command error:Broken pipe
+05/12/2025 23:20:00 [8009] set the loglevel to 1
+05/12/2025 23:20:00 [8009] sslvpn connection version:4.0.2334
+05/12/2025 23:20:00 [7995] set the loglevel to 1
+05/12/2025 23:20:00 [8009] rcv cmd:0 at state[0]
+05/12/2025 23:20:00 [8009] starting ssl vpn tunnel[4.0.2334]
+05/12/2025 23:20:00 [8013] route backup START
+05/12/2025 23:20:00 [8013] route backup DONE
+05/12/2025 23:20:00 [8014] execl /home/brenddon/Documents/uff/mestrado/periodo20251/pesquisa/forticlientsslvpn/64bit/./helper/get_fortisslvpn_info /home/brenddon/Documents/uff/mestrado/periodo20251/pesquisa/forticlientsslvpn/64bit/./helper 200.159.241.9 10443   ...
+05/12/2025 23:20:00 [8014] trusted CA dir: /home/brenddon/.fctsslvpn_trustca
+05/12/2025 23:20:00 [8014] set loglevel to 1
+05/12/2025 23:20:00 [8014] Peer's certificate is not valid. action is 1
+05/12/2025 23:20:00 [8014] peer's certificate: 
+Certificate:$    Data:$        Version: 3 (0x2)$        Serial Number: 43468499 (0x29746d3)$    Signature Algorithm: sha256WithRSAEncryption$        Issuer: C=US, ST=California, L=Sunnyvale, O=Fortinet, OU=Certificate Authority, CN=fortinet-subca2001/emailAddress=support@fortinet.com$        Validity$            Not Before: Mar  7 06:41:36 2024 GMT$            Not After : May 26 20:48:33 2056 GMT$        Subject: C=US, ST=California, L=Sunnyvale, O=Fortinet, OU=FortiGate, CN=FG4H1FT923904166/emailAddress=support@fortinet.com$        Subject Public Key Info:$            Public Key Algorithm: rsaEncryption$                Public-Key: (2048 bit)$                Modulus:$                    00:d2:16:7d:b4:ef:6b:97:ee:7e:4b:3c:fa:b6:7c:$                    82:ba:c8:b7:32:23:39:e5:3d:d9:a0:09:56:8c:63:$                    58:ee:6d:21:a9:7a:d0:15:c0:bd:ea:18:3e:be:72:$                    c8:3d:38:d0:aa:be:59:2b:2b:7b:35:32:d6:e6:4d:$                    b0:4c:78:07:1d:fc:9e:3e:ea:d6:9e:4c:ab:af:3c:$                    0c:b8:62:a0:34:fb:96:95:30:f0:4e:0b:57:29:11:$                    f1:f8:53:79:4e:5b:11:c1:29:ec:29:6a:c3:69:07:$                    4d:83:90:ba:b6:01:56:7c:d0:a0:84:07:47:2b:d2:$                    4b:01:09:24:25:a2:8b:f3:96:df:f0:33:07:4f:19:$                    19:ab:b3:9c:16:fd:68:dc:fc:00:30:ec:12:f1:d6:$                    be:77:89:6a:41:cc:e3:c1:42:7b:de:e5:38:09:26:$                    e5:18:17:b9:9b:af:81:ee:fc:f6:2d:a9:4b:b3:ea:$                    00:bd:51:49:ea:83:93:26:88:33:bb:77:7d:3b:54:$                    77:90:73:cb:bb:72:74:72:bd:58:6d:6a:af:f4:21:$                    6f:7d:f3:c7:5b:d0:ef:19:be:b8:50:b9:98:06:d6:$                    53:8d:6f:f1:06:d2:12:8a:ae:0a:af:f6:82:20:fb:$                    64:a7:ff:a3:79:f5:00:8b:14:2c:dd:5d:02:72:08:$                    df:6d$                Exponent: 65537 (0x10001)$        X509v3 extensions:$            X509v3 Basic Constraints: critical$                CA:FALSE$            X509v3 Subject Key Identifier: $                77:86:59:09:CD:38:F1:76:93:01:A2:42:0A:58:4B:F2:9A:E0:89:45$            X509v3 Authority Key Identifier: $                keyid:98:2B:25:3C:30:CA:2C:2B:56:E7:DB:FC:59:33:B3:DC:3D:5B:6A:D7$                DirName:/C=US/ST=California/L=Sunnyvale/O=Fortinet/OU=Certificate Authority/CN=fortinet-ca2/emailAddress=support@fortinet.com$                serial:20:01$$            X509v3 Key Usage: critical$                Digital Signature$    Signature Algorithm: sha256WithRSAEncryption$         d2:c5:be:b9:11:fa:cd:91:c7:46:12:0e:16:38:4f:86:fe:96:$         27:0f:ea:8d:cf:33:d5:30:71:c3:15:f7:ef:ac:8b:75:40:a1:$         3a:01:61:82:96:01:e9:b6:25:8e:cc:ac:f7:51:2a:9a:21:31:$         84:59:fc:6a:5c:83:eb:d8:3e:e8:02:9d:4e:a9:37:36:a4:4f:$         1e:17:5b:94:f8:91:e1:dd:b2:34:45:4d:32:e9:d2:80:0b:92:$         ee:3c:a4:94:2c:16:e3:d6:46:01:96:4e:c0:8c:02:58:17:38:$         2c:b3:cd:ba:a4:6b:dd:32:5e:f6:54:22:f9:95:b6:d4:99:77:$         19:41:f9:75:78:c2:a9:0f:59:c3:d7:aa:02:2a:39:cc:58:25:$         99:66:a0:44:ee:ae:32:d4:2d:8c:bc:1d:b7:e0:96:bd:a6:df:$         77:ca:54:81:90:a2:35:a5:06:28:2c:ee:62:60:13:ef:a5:26:$         1a:94:a1:c8:5a:55:45:44:90:6d:47:1e:6a:3b:4a:16:ff:ba:$         cf:1f:42:4c:18:57:43:bb:db:ce:fe:cc:28:ec:f3:91:2e:47:$         6d:2c:23:95:38:d8:b0:c6:68:f6:09:f9:4d:19:b2:ce:c9:89:$         62:5c:d1:26:8f:d4:33:63:f6:fb:ac:e3:c7:a7:89:de:a4:d1:$         39:2f:0e:33$
+05/12/2025 23:20:01 [8014] realm is enabled: 
+05/12/2025 23:20:01 [8014] no Content-Length
+05/12/2025 23:20:01 [8014] try to get cookie for the first time: 115 :  SVPNNETWORKCOOKIE=; path=/remote/network; expires=Sun, 11 Mar 1984 12:00:00 GMT; secure; httponly; SameSite=Strict
+05/12/2025 23:20:01 [8014] no Content-Length
+05/12/2025 23:20:01 [8014] cookie: SVPNCOOKIE=N1qcwlHY7UC3X2U95KTaP/NRWkIsYW0LjQLugZ+C0wTjeoWJKYKaL030jfu7tc5QUcPVPau8S8mHUcn2stNAd4Xsins/c/JzGZZYM5hIM7ATjgq73viPcS3AHXAc4zLzpG/fTD32HSzQ/74S6lOi8iGL2On3DzSV6HcgqkWizWE/R8dcunGrPe73igfuNKKyeLseGc0JxRbfyG9WX2mnvkTNQFXJn0nyA3KXWIL164AKmnxtBP6QCSdCjjJZ00VbCtnj0JmloF6jluctjNud0XdXr6gQwSFOZTjBDDRN65tqIoweyx5lzPz9JPD+Z3M8Ol7J393QWFOFZJkAkavbHdxe8ecfCRCLgHo+yUGf1LUB21ZQWlaK2plz/Z2J1F/V36nGWSt6Nm9971b4vQKfRQ==
+05/12/2025 23:20:01 [8014] no Content-Length
+05/12/2025 23:20:01 [8014] no Content-Length
+05/12/2025 23:20:01 [8014] 0|"|ê™O¸|1||N1qcwlHY7UC3X2U95KTaP/NRWkIsYW0LjQLugZ+C0wTjeoWJKYKaL030jfu7tc5QUcPVPau8S8mHUcn2stNAd4Xsins/c/JzGZZYM5hIM7ATjgq73viPcS3AHXAc4zLzpG/fTD32HSzQ/74S6lOi8iGL2On3DzSV6HcgqkWizWE/R8dcunGrPe73igfuNKKyeLseGc0JxRbfyG9WX2mnvkTNQFXJn0nyA3KXWIL164AKmnxtBP6QCSdCjjJZ00VbCtnj0JmloF6jluctjNud0XdXr6gQwSFOZTjBDDRN65tqIoweyx5lzPz9JPD+Z3M8Ol7J393QWFOFZJkAkavbHdxe8ecfCRCLgHo+yUGf1LUB21ZQWlaK2plz/Z2J1F/V36nGWSt6Nm9971b4vQKfRQ==|0
+05/12/2025 23:20:01 [8009] ssl vpn tunnel started
+05/12/2025 23:20:01 [8016] server="[200.159.241.9] port=ê™O¸[10443] version=1 tunnel= cookie=N1qcwlHY7UC3X2U95KTaP/NRWkIsYW0LjQLugZ+C0wTjeoWJKYKaL030jfu7tc5QUcPVPau8S8mHUcn2stNAd4Xsins/c/JzGZZYM5hIM7ATjgq73viPcS3AHXAc4zLzpG/fTD32HSzQ/74S6lOi8iGL2On3DzSV6HcgqkWizWE/R8dcunGrPe73igfuNKKyeLseGc0JxRbfyG9WX2mnvkTNQFXJn0nyA3KXWIL164AKmnxtBP6QCSdCjjJZ00VbCtnj0JmloF6jluctjNud0XdXr6gQwSFOZTjBDDRN65tqIoweyx5lzPz9JPD+Z3M8Ol7J393QWFOFZJkAkavbHdxe8ecfCRCLgHo+yUGf1LUB21ZQWlaK2plz/Z2J1F/V36nGWSt6Nm9971b4vQKfRQ== exclusive routing: 0
+
+05/12/2025 23:20:01 [8016] starting pppd
+05/12/2025 23:20:01 [8016] use tty:/dev/pts/5
+05/12/2025 23:20:01 [8016] connecting to 200.159.241.9:10443
+05/12/2025 23:20:01 [8016] [xml config]: GET /remote/fortisslvpn_xml ... (received 1009 bytes): 
+HTTP/1.1 200 OK
+Date: Tue, 13 May 2025 02:20:01 GMT
+Transfer-Encoding: chunked
+Content-Type: text/xml
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'; object-src 'self'; script-src 'self' https:  'unsafe-eval' 'unsafe-inline' blob:;
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000
+
+<?xml version='1.0' encoding='utf-8'?><sslvpn-tunnel ver='2' dtls='1' patch='1'><dtls-config ver='2' heartbeat-interval='3' heartbeat-fail-count='3' heartbeat-idle-timeout='3' client-hello-timeout='10' dtls-accept-check-time ='1'/><tunnel-method value='ppp' /><tunnel-method value='tun' /><tunnel-method value='websocket' /><auth-ses check-src-ip='1' tun-connect-without-reauth='0' tun-user-ses-timeout='30' /><client-config save-password='off' keep-alive='off' auto-connect='off' /><ipv4><dns ip='192.168.0.1' /><assigned-addr ipv4='192.168.81.100' /></ipv4><idle-timeout val='300' /><auth-timeout val='10800' /></sslvpn-tunnel>
+----
+
+05/12/2025 23:20:01 [8016] dns suffix: 
+
+05/12/2025 23:20:01 [8016] Got local address from ppp, interface will be  up
+05/12/2025 23:21:01 [8016] ppp interface is not up!!!
+05/12/2025 23:21:17 [8009] kill_child:8016
+05/12/2025 23:21:17 [8014] signal rcved, logout now
+05/12/2025 23:21:17 [8016] killing pppd ...
+05/12/2025 23:21:17 [8016] kill_child:8018
+05/12/2025 23:21:17 [8009] kill_child:8014
+05/12/2025 23:21:17 [8358] begin cleanup linux...
+05/12/2025 23:21:17 [8358] restore /etc/resolv.conf
+05/12/2025 23:21:17 [8358] clean up route...
+05/12/2025 23:21:17 [8358] truncate pppd.log
+05/12/2025 23:21:17 [8358] truncate forticlientsslvpn.log
+05/12/2025 23:21:17 [8009] FortiClient SSLVPN[4.0.2334] stopped
+05/12/2025 23:21:17 [7995] send command error:Broken pipe
+05/12/2025 23:34:12 [9480] set the loglevel to 1
+05/12/2025 23:34:12 [9480] sslvpn connection version:4.0.2334
+05/12/2025 23:34:12 [9469] set the loglevel to 1
+05/12/2025 23:34:12 [9480] rcv cmd:0 at state[0]
+05/12/2025 23:34:12 [9480] starting ssl vpn tunnel[4.0.2334]
+05/12/2025 23:34:12 [9484] route backup START
+05/12/2025 23:34:12 [9484] route backup DONE
+05/12/2025 23:34:12 [9485] execl /home/brenddon/Documents/uff/mestrado/periodo20251/pesquisa/forticlientsslvpn/64bit/./helper/get_fortisslvpn_info /home/brenddon/Documents/uff/mestrado/periodo20251/pesquisa/forticlientsslvpn/64bit/./helper 200.159.241.9 10443   ...
+05/12/2025 23:34:12 [9485] trusted CA dir: /home/brenddon/.fctsslvpn_trustca
+05/12/2025 23:34:12 [9485] set loglevel to 1
+05/12/2025 23:34:12 [9485] Peer's certificate is not valid. action is 1
+05/12/2025 23:34:12 [9485] peer's certificate: 
+Certificate:$    Data:$        Version: 3 (0x2)$        Serial Number: 43468499 (0x29746d3)$    Signature Algorithm: sha256WithRSAEncryption$        Issuer: C=US, ST=California, L=Sunnyvale, O=Fortinet, OU=Certificate Authority, CN=fortinet-subca2001/emailAddress=support@fortinet.com$        Validity$            Not Before: Mar  7 06:41:36 2024 GMT$            Not After : May 26 20:48:33 2056 GMT$        Subject: C=US, ST=California, L=Sunnyvale, O=Fortinet, OU=FortiGate, CN=FG4H1FT923904166/emailAddress=support@fortinet.com$        Subject Public Key Info:$            Public Key Algorithm: rsaEncryption$                Public-Key: (2048 bit)$                Modulus:$                    00:d2:16:7d:b4:ef:6b:97:ee:7e:4b:3c:fa:b6:7c:$                    82:ba:c8:b7:32:23:39:e5:3d:d9:a0:09:56:8c:63:$                    58:ee:6d:21:a9:7a:d0:15:c0:bd:ea:18:3e:be:72:$                    c8:3d:38:d0:aa:be:59:2b:2b:7b:35:32:d6:e6:4d:$                    b0:4c:78:07:1d:fc:9e:3e:ea:d6:9e:4c:ab:af:3c:$                    0c:b8:62:a0:34:fb:96:95:30:f0:4e:0b:57:29:11:$                    f1:f8:53:79:4e:5b:11:c1:29:ec:29:6a:c3:69:07:$                    4d:83:90:ba:b6:01:56:7c:d0:a0:84:07:47:2b:d2:$                    4b:01:09:24:25:a2:8b:f3:96:df:f0:33:07:4f:19:$                    19:ab:b3:9c:16:fd:68:dc:fc:00:30:ec:12:f1:d6:$                    be:77:89:6a:41:cc:e3:c1:42:7b:de:e5:38:09:26:$                    e5:18:17:b9:9b:af:81:ee:fc:f6:2d:a9:4b:b3:ea:$                    00:bd:51:49:ea:83:93:26:88:33:bb:77:7d:3b:54:$                    77:90:73:cb:bb:72:74:72:bd:58:6d:6a:af:f4:21:$                    6f:7d:f3:c7:5b:d0:ef:19:be:b8:50:b9:98:06:d6:$                    53:8d:6f:f1:06:d2:12:8a:ae:0a:af:f6:82:20:fb:$                    64:a7:ff:a3:79:f5:00:8b:14:2c:dd:5d:02:72:08:$                    df:6d$                Exponent: 65537 (0x10001)$        X509v3 extensions:$            X509v3 Basic Constraints: critical$                CA:FALSE$            X509v3 Subject Key Identifier: $                77:86:59:09:CD:38:F1:76:93:01:A2:42:0A:58:4B:F2:9A:E0:89:45$            X509v3 Authority Key Identifier: $                keyid:98:2B:25:3C:30:CA:2C:2B:56:E7:DB:FC:59:33:B3:DC:3D:5B:6A:D7$                DirName:/C=US/ST=California/L=Sunnyvale/O=Fortinet/OU=Certificate Authority/CN=fortinet-ca2/emailAddress=support@fortinet.com$                serial:20:01$$            X509v3 Key Usage: critical$                Digital Signature$    Signature Algorithm: sha256WithRSAEncryption$         d2:c5:be:b9:11:fa:cd:91:c7:46:12:0e:16:38:4f:86:fe:96:$         27:0f:ea:8d:cf:33:d5:30:71:c3:15:f7:ef:ac:8b:75:40:a1:$         3a:01:61:82:96:01:e9:b6:25:8e:cc:ac:f7:51:2a:9a:21:31:$         84:59:fc:6a:5c:83:eb:d8:3e:e8:02:9d:4e:a9:37:36:a4:4f:$         1e:17:5b:94:f8:91:e1:dd:b2:34:45:4d:32:e9:d2:80:0b:92:$         ee:3c:a4:94:2c:16:e3:d6:46:01:96:4e:c0:8c:02:58:17:38:$         2c:b3:cd:ba:a4:6b:dd:32:5e:f6:54:22:f9:95:b6:d4:99:77:$         19:41:f9:75:78:c2:a9:0f:59:c3:d7:aa:02:2a:39:cc:58:25:$         99:66:a0:44:ee:ae:32:d4:2d:8c:bc:1d:b7:e0:96:bd:a6:df:$         77:ca:54:81:90:a2:35:a5:06:28:2c:ee:62:60:13:ef:a5:26:$         1a:94:a1:c8:5a:55:45:44:90:6d:47:1e:6a:3b:4a:16:ff:ba:$         cf:1f:42:4c:18:57:43:bb:db:ce:fe:cc:28:ec:f3:91:2e:47:$         6d:2c:23:95:38:d8:b0:c6:68:f6:09:f9:4d:19:b2:ce:c9:89:$         62:5c:d1:26:8f:d4:33:63:f6:fb:ac:e3:c7:a7:89:de:a4:d1:$         39:2f:0e:33$
+05/12/2025 23:34:13 [9485] realm is enabled: 
+05/12/2025 23:34:13 [9485] no Content-Length
+05/12/2025 23:34:13 [9485] try to get cookie for the first time: 115 :  SVPNNETWORKCOOKIE=; path=/remote/network; expires=Sun, 11 Mar 1984 12:00:00 GMT; secure; httponly; SameSite=Strict
+05/12/2025 23:34:13 [9485] no Content-Length
+05/12/2025 23:34:13 [9485] cookie: SVPNCOOKIE=tin4E0P6cR+vhmfSXf29olkdeIiwjfLHO4cVRwPKXBHjM2Ns9F+Ms4Xp5sR51HS2ARnXMFjJSl8RMRJL35Zo35IzOkuG6VkwPMx+mdObkROq/3fT+tr8oNkwFDNMjn1JVZK9B+bXwanGTRSgFiKAnVk23DOPs7DYHiYka2oPQK7cFIeVr99D04cH1LLZm/K6vUPwUkqO8VDYSrk6sAFdmAVnOHrtB2G2qJ8YL0mDblw2p1IAoIu7Qg2zOOJsCph5qe4YPt+cCO+cOoTwPITnNfzxZxemPzL3eJfB8/WQVc/AWqZg1TR3UWSdIN/k94Ov8pyKeujbrPEnx/zAJ4J9dnbNC8WURQkUCWWjuiYKJayyTJb7NvjdAGChUS8PLUKCePKDwZfhX6T+ESDz4SE4TFrq
+05/12/2025 23:34:13 [9485] no Content-Length
+05/12/2025 23:34:13 [9485] no Content-Length
+05/12/2025 23:34:13 [9485] 0|"|êòç≥˛|1||tin4E0P6cR+vhmfSXf29olkdeIiwjfLHO4cVRwPKXBHjM2Ns9F+Ms4Xp5sR51HS2ARnXMFjJSl8RMRJL35Zo35IzOkuG6VkwPMx+mdObkROq/3fT+tr8oNkwFDNMjn1JVZK9B+bXwanGTRSgFiKAnVk23DOPs7DYHiYka2oPQK7cFIeVr99D04cH1LLZm/K6vUPwUkqO8VDYSrk6sAFdmAVnOHrtB2G2qJ8YL0mDblw2p1IAoIu7Qg2zOOJsCph5qe4YPt+cCO+cOoTwPITnNfzxZxemPzL3eJfB8/WQVc/AWqZg1TR3UWSdIN/k94Ov8pyKeujbrPEnx/zAJ4J9dnbNC8WURQkUCWWjuiYKJayyTJb7NvjdAGChUS8PLUKCePKDwZfhX6T+ESDz4SE4TFrq|0
+05/12/2025 23:34:13 [9480] ssl vpn tunnel started
+05/12/2025 23:34:13 [9494] server="[200.159.241.9] port=êòç≥˛[10443] version=1 tunnel= cookie=tin4E0P6cR+vhmfSXf29olkdeIiwjfLHO4cVRwPKXBHjM2Ns9F+Ms4Xp5sR51HS2ARnXMFjJSl8RMRJL35Zo35IzOkuG6VkwPMx+mdObkROq/3fT+tr8oNkwFDNMjn1JVZK9B+bXwanGTRSgFiKAnVk23DOPs7DYHiYka2oPQK7cFIeVr99D04cH1LLZm/K6vUPwUkqO8VDYSrk6sAFdmAVnOHrtB2G2qJ8YL0mDblw2p1IAoIu7Qg2zOOJsCph5qe4YPt+cCO+cOoTwPITnNfzxZxemPzL3eJfB8/WQVc/AWqZg1TR3UWSdIN/k94Ov8pyKeujbrPEnx/zAJ4J9dnbNC8WURQkUCWWjuiYKJayyTJb7NvjdAGChUS8PLUKCePKDwZfhX6T+ESDz4SE4TFrq exclusive routing: 0
+
+05/12/2025 23:34:13 [9494] starting pppd
+05/12/2025 23:34:13 [9494] use tty:/dev/pts/2
+05/12/2025 23:34:13 [9494] connecting to 200.159.241.9:10443
+05/12/2025 23:34:13 [9494] [xml config]: GET /remote/fortisslvpn_xml ... (received 1009 bytes): 
+HTTP/1.1 200 OK
+Date: Tue, 13 May 2025 02:34:13 GMT
+Transfer-Encoding: chunked
+Content-Type: text/xml
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'; object-src 'self'; script-src 'self' https:  'unsafe-eval' 'unsafe-inline' blob:;
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000
+
+<?xml version='1.0' encoding='utf-8'?><sslvpn-tunnel ver='2' dtls='1' patch='1'><dtls-config ver='2' heartbeat-interval='3' heartbeat-fail-count='3' heartbeat-idle-timeout='3' client-hello-timeout='10' dtls-accept-check-time ='1'/><tunnel-method value='ppp' /><tunnel-method value='tun' /><tunnel-method value='websocket' /><auth-ses check-src-ip='1' tun-connect-without-reauth='0' tun-user-ses-timeout='30' /><client-config save-password='off' keep-alive='off' auto-connect='off' /><ipv4><dns ip='192.168.0.1' /><assigned-addr ipv4='192.168.81.100' /></ipv4><idle-timeout val='300' /><auth-timeout val='10800' /></sslvpn-tunnel>
+----
+
+05/12/2025 23:34:13 [9494] dns suffix: 
+
+05/12/2025 23:34:13 [9494] Got local address from ppp, interface will be  up
+05/12/2025 23:35:13 [9494] ppp interface is not up!!!
+05/12/2025 23:39:13 [9494] ssl read failed[error:00000006:lib(0):func(0):EVP lib]:[Success]
+05/12/2025 23:39:13 [9494] io finished, kill pppd
+05/12/2025 23:39:13 [9494] kill_child:9496
+05/12/2025 23:39:13 [9494] tunnel finished, killing session
+05/12/2025 23:39:13 [9494] killing pppd ...
+05/12/2025 23:39:13 [9480] tunnel terminated
+05/12/2025 23:39:13 [9480] tunnel down unexpected
+05/12/2025 23:39:13 [9480] kill_child:9485
+05/12/2025 23:39:13 [9485] signal rcved, logout now
+05/12/2025 23:39:13 [9485] ssl_write error return -1
+05/12/2025 23:39:13 [9678] begin cleanup linux...
+05/12/2025 23:39:13 [9678] restore /etc/resolv.conf
+05/12/2025 23:39:13 [9678] clean up route...
+05/12/2025 23:39:13 [9678] truncate pppd.log
+05/12/2025 23:39:13 [9678] truncate forticlientsslvpn.log
+05/12/2025 23:39:13 [9480] select: Interrupted system call
+05/12/2025 23:39:13 [9480] rcv cmd:1 at state[0]
+05/12/2025 23:39:13 [9480] rcv cmd:2 at state[0]

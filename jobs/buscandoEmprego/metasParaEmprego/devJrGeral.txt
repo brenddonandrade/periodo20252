@@ -1,0 +1,7 @@
+- O que preciso para entrar como Jr.
+	- ( ) Estratégias de Testes
+	- ( ) Interface de Progração de Aplicativos (API)
+	- ( ) Conhecimento em serviços de computação em nuvem da AWS, como EC2, Lambdas, API Gateway, SQS, SNS, etc;
+
+
+

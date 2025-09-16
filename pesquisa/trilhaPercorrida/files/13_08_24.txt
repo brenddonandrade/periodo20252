@@ -1,0 +1,59 @@
+Brenddon, tudo bem?
+
+Te passar alguma coisa de ordem extremamente prática para fazer. Use a API do Yahoo Finance para obter dados, que não são de alta qualidade no sentido que tem baixa resolução, fechamento diário. Os dados de resolução mais alta que isso são pagos. A gente ve isso ai daqui a pouco. Não faz muita diferença pegar esses dados para ir treinando. 
+
+1) pip install yfinance
+
+Leia a documentação dessa biblioteca, aprenda a usar. Você pode com obter dados históricos de vários instrumentos, tais como:
+
+Crude Oil (WTI) Futures: Available under the ticker symbol CL=F.
+Brent Crude Oil Futures: Available under the ticker symbol BZ=F.
+Natural Gas Futures: Available under the ticker symbol NG=F.
+Gold Futures: Available under the ticker symbol GC=F.
+Silver Futures: Available under the ticker symbol SI=F.
+Copper Futures: Available under the ticker symbol HG=F.
+Platinum Futures: Available under the ticker symbol PL=F.
+Palladium Futures: Available under the ticker symbol PA=F.
+Corn Futures: Available under the ticker symbol ZC=F.
+Soybean Futures: Available under the ticker symbol ZS=F.
+Wheat Futures: Available under the ticker symbol ZW=F.
+Coffee Futures: Available under the ticker symbol KC=F.
+Cotton Futures: Available under the ticker symbol CT=F.
+Sugar Futures: Available under the ticker symbol SB=F.
+
+S&P 500 Futures: Available under the ticker symbol ES=F.
+Dow Jones Industrial Average Futures: Available under the ticker symbol YM=F.
+Nasdaq 100 Futures: Available under the ticker symbol NQ=F.
+Russell 2000 Futures: Available under the ticker symbol RTY=F.
+Nikkei 225 Futures: Available under the ticker symbol NK=F.
+FTSE 100 Futures: Available under the ticker symbol FFI=F.
+DAX Futures: Available under the ticker symbol GDAXI=F.
+
+Euro (EUR/USD) Futures: Available under the ticker symbol EURUSD=X.
+British Pound (GBP/USD) Futures: Available under the ticker symbol GBPUSD=X.
+Japanese Yen (JPY/USD) Futures: Available under the ticker symbol JPYUSD=X.
+Canadian Dollar (CAD/USD) Futures: Available under the ticker symbol CADUSD=X.
+Australian Dollar (AUD/USD) Futures: Available under the ticker symbol AUDUSD=X.
+Swiss Franc (CHF/USD) Futures: Available under the ticker symbol CHFUSD=X.
+
+VIX Futures: Available under the ticker symbol ^VIX.
+
+2) Com os dados obtidos, você utilizar os dados como séries temporais. Você pode ignorar os buracos no timestamp, simplesmente ignorando fins de semana e feriados, junte simplesmente as sextas com as segundas e assim por diante. 
+
+see: https://stackoverflow.com/questions/63107594/how-to-deal-with-multi-level-column-names-downloaded-with-yfinance/63107801#63107801
+
+Depois que tiver algumas dessas séries, você pode fazer uma análise estatística muito básica. Utilize a statsmodels para plotar os gráficos da ACF (função de autocorrelação) e PACF (função de autocorrelação parcial). Leia sobre cada uma dessas duas funções para que serve e leia a teoria. Tenta pegar o suficiente para explicar em uma dessas apresentações de segunda. 
+
+Outra coisa que você deve fazer é plotar um histograma de forma a avaliar a distribuição de probabilidades subjacente a série temporal. Isso vai te dar uma perspectiva visual do shape da distribuição e perceber com inspeção visual se é simétrica ou não, por exemplo. 
+
+3) Depois você pode continuar no statsmodels para calcular cross-correlation entre duas das séries temporais que você pegou. Eu sugiro que você escolha apenas 4 séries dos assetes acima da API da Yahoo Finance para fazer os cálculos do cross-correlation.
+
+Escolha 2 assetes que te parecer ser relacionados, como dois metais ou dois grãos agrícolas, e outros dois muito diferentes dos dois anteriores e diferentes entre si. 
+
+Basicamente você pode calcular a cross-correlation dois a dois. Todas as combinações possíveis. 
+
+4) Agora você pode tentar fazer o mesmo procedimento de 3, mas calculando a Transfer Entropy (TE) e a biblioteca IDTxl (Information Dynamics Toolkit xl).
+
+Brenddon isso ai é uma boa introdução. Tem um roteiro a seguir e a ideia é ir estudando as coisas que você for fazendo e usando. Eu não especifiquei aqui, mas você provavelmente vai ter que usar Pandas ou NumPy. Pode usar o que for melhor para você. Use GPT para te auxiliar. E priorize implementar a estudar a teoria. Você pode fazer umas leituras superficiais sobre as medidas entrópicas, não para para estudar a fundo Teoria da Informação. Vai pondo a mão na massa. 
+
+Esses cálculos você vai usar para montar os Grafos em um momento posterior, usando o PyG.

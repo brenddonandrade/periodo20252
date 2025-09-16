@@ -1,0 +1,58 @@
+Metas para cumprir todos os dias (cada um com pelo menos 30 min):
+	- Analisar o Mercado:
+                - (X) Ler notícias dos meios comunicativos (Jornais)
+			- https://jornalpurosangue.net/
+			- https://www.cnnbrasil.com.br/internacional/
+			- https://g1.globo.com/
+			- https://oglobo.globo.com/
+			- https://extra.globo.com/
+			- https://valor.globo.com/
+	- Acompanhar ITA:
+		- ( ) estudar
+		- ( ) qual etapa prosseguir?
+		- http://www.ita.br/concurso2025
+	- Acompanhar (PND):
+		- ( ) estudar
+		- ( ) qual etapa prosseguir?
+		- https://pnd.inep.gov.br/pnd/inicio
+	- Acompanhar CNU :
+		- (X) estudar
+		- https://inscricao-cpnu.conhecimento.fgv.br/
+		- (X) qual etapa prosseguir?
+	- Prova Bombeiros:
+		- ( ) fazer exercicios
+			- ( ) barra
+			- ( ) corrida
+			- ( ) apneia
+		- ( ) prova teorica
+			- ( ) disciplina estudada
+	- Estudar física:
+		- ( ) Uma aula do UAI Física
+	- Meta diária OpenEnglish:
+		- ( ) Aula em grupo - Tipo de Aula
+		- (X) Uma unidade completa
+		- (X) 30 min de prática
+		- ( ) Descreva seu dia em ingles para conversar na aula
+	- Estudar via Duolingo:
+		- (X) estudar
+	- Estudar para a pesquisa, variando entre:
+		- (X) aprenda sobre um dos modelos simples de previsao
+		- (X) olhar o notebook kaggle para abrir a visao
+		- ( ) ler um livro
+		- (X) ler um artigo do medium
+		- ( ) teoria
+		- ( ) pratica
+		- ( ) estudar material prof Francisco:
+			- https://www.youtube.com/@FranciscoRodrigues/playlists
+		- (X) estudar material do google
+			- https://developers.google.com/machine-learning
+		- ( ) estudar material Brownlee
+			- https://machinelearningmastery.com/start-here/
+	- Continuar trabalho do tio Mello
+		- (X) trabalho
+	- Procurar trabalho:
+		- (X) linkedIn
+	- Olhar metas semanais:
+		- (X) cumprir meta
+
+		

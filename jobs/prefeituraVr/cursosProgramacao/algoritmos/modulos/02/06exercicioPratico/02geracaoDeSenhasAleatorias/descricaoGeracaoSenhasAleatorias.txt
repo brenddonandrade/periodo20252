@@ -1,0 +1,7 @@
+O objetivo desse programa é gerar senhas aleatórias contendo:
+	- seis letras, podendo ser maiúscula ou minúscula com a mesma probabilidade;
+	- dois números;
+
+Dicas:
+	- use valores da tabela ascii para gerar os caracteres através de valores inteiros gerados pela função rand();
+	- use a função toupper(caractere) da biblioteca ctype (#include <ctype>) para gerar letras maiúsculas;
